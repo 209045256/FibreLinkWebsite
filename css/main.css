@@ -664,7 +664,55 @@ textarea.form-control {
 /*============================================================
 	Tablet (Portrait) Design for a width of 768px
 ==============================================================*/
+@media (min-width: 768px) and (max-width: 979px) {
 
+    /* home slider  */
+        .caption-content h2 {
+            font-size: 40px;
+        }
+    
+        .caption-content p {
+            font-size: 25px;
+        }
+    
+        .caption-content strong {
+            font-size: 45px;
+        }
+    
+    /* about */
+        .recent-works {
+            margin-bottom: 50px;
+        }
+    
+        .service-item {
+            margin-bottom: 50px;
+        }
+    
+    /* portfolio */
+        .portfolio-item {
+            width: 48%;
+        }
+    
+    /* testimonial */
+        .testimonial-item {
+            width: 100%;
+        }
+    
+        .testimonial-item {
+            width: 80%;
+        }
+    
+        .testimonial-item > div:after {
+            bottom: -35px;
+        }
+    
+    
+    /* contact form */
+        .contact-form {
+            margin-bottom: 50px;
+        }
+    }
+    
 
 
 
