@@ -719,6 +719,128 @@ textarea.form-control {
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
 ==============================================================*/
+@media only screen and (max-width: 767px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .parallax {
+        background-position: centet tip !important;
+    }
+
+    .sec-title h2 {
+        font-size: 25px;
+    }
+
+    .sec-title h2:after {
+        left: 30%;
+    }
+
+/*navigation*/
+    .navbar-inverse .navbar-toggle {
+        border-color: #fff;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+/* slider */
+    .caption-content h2 {
+        font-size: 18px;
+    }
+
+    .caption-content > span {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .caption-content p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .caption-content strong {
+        font-size: 22px;
+    }
+
+/* about */
+    .recent-works {
+        margin-bottom: 85px;
+    }
+
+    #about h3 {
+        font-size: 18px;
+        margin: 0 0 35px !important;
+    }
+
+    #about .owl-buttons {
+        margin-top: 20px;
+    }
+
+    #about .message-body {
+        margin-bottom: 45px;
+    }
+
+    #about .welcome-block img {
+        margin: 0 25px 15px 0;
+    }
+
+/* service */
+    .service-item {
+        width: 100%;
+    }
+
+/*portfolio*/
+    .portfolio-item {
+        margin: 0 auto 10px;
+        font-size: 14px;
+        width: 280px;
+    }
+
+    figcaption.mask {
+        bottom: -107px;
+        color: #fff;
+        padding: 15px;
+    }
+
+/* lightbox */
+    .fancybox-title h3 {
+        font-size: 20px;
+    }
+
+    .fancybox-title p {
+        font-size: 14px;
+    }
+
+
+/* follow us */
+    .social-button li:nth-child(2) {
+        margin: 0 25px;
+    }
+
+    .social-button li a {
+        height: 65px;
+        line-height: 71px;
+        width: 65px;
+    }
+
+/* contact form */
+    .contact-form {
+        margin-bottom: 50px;
+    }
+
+/* footer */
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-social ul li {
+        margin: 0 7px;
+    }
+}
 
 
 
